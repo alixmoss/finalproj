@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../styles/stylesheet.css">
+<title>Complete Our Survey</title>
+</head>
+
+<body>
+
+<div class="nav">
+	<a href="../index.html">Home</a>
+	<a href="survey/form.html">Survey</a>
+	<div class="dropdown">
+		<button class="dropbtn">Exercises</button>
+		<div class="drop-content">
+			<a href="exercises/weightloss.html">Weight Loss</a>
+			<a href="exercises/stamina.html">Stamina</a>
+			<a href="exercises/strength.html">Strength</a>
+			<a href="exercises/neck.html">Neck Strength</a>
+			<a href="exercises/back.html">Back Strength</a>
+			<a href="exercises/core.html">Core Training</a>
+			<a href="exercises/arms.html">Arm Strength</a>
+			<a href="exercises/legs.html">Leg Strength</a>
+			<a href="exercises/ankles.html">Ankle and Foot Strength</a>
+		</div>
+	</div>
+</div>
+
+<div class="header">
+	<h1>Please complete our survey!</h1>
+</div>
+
+<form name="form" action="surveydata.html" method="get">
+	
+	<h2>Contact information</h2>
+	<label for="email">Email address:</label>
+	<input type="email" name="email" id="email"><br>
+	<label for="firstname">First name:</label>
+	<input type="text" name="firstname" id="firstname"><br>
+	<label for="lastname">Last name:</label>
+	<input type="text" name="lastname" id="lastname"><br>
+
+	<h2>Did our recommended exercises help you?</h2>
+	<input type="radio" name="yes" id="yes" value="yes">
+	<label for="yes">Yes</label><br>
+	<input type="radio" name="no" id="no" value="no">
+	<label for="no">No</label><br>
+
+	<h2>Please select the exercises that helped you the most:</h2>
+	<input type="checkbox" name="weightloss" id="weightloss" value="weightloss">
+	<label for="weightloss">Weight Loss</label><br>
+	<input type="checkbox" name="stamina" id="stamina" value="stamina">
+	<label for="stamina">Stamina Training</label><br>
+	<input type="checkbox" name="strength" id="strength" value="strength">
+	<label for="strength">Strength Training</label><br>
+	<input type="checkbox" name="neck" id="neck" value="neck">
+	<label for="neck">Neck Strength</label><br>
+	<input type="checkbox" name="back" id="back" value="back">
+	<label for="back">Back Strength</label><br>
+	<input type="checkbox" name="core" id="core" value="core">
+	<label for="core">Core Strength</label><br>
+	<input type="checkbox" name="arms" id="arms" value="arms">
+	<label for="arms">Arm Strength</label><br>
+	<input type="checkbox" name="legs" id="legs" value="legs">
+	<label for="legs">Leg Strength</label><br>
+	<input type="checkbox" name="ankle" id="ankle" value="ankle">
+	<label for="ankle">Ankle and Foot Strength</label><br>
+    
+	<h2>Thank you for taking our survey!</h2>
+	<input type="submit" name="register" id="button" value="Submit">
+	<input type="reset" name="reset" id="reset">
+     
+</form>
+</body>
+</html>
